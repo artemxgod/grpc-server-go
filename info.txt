@@ -1,0 +1,5 @@
+download protocol buffers to compile from protofiles -- https://developers.google.com/protocol-buffers/docs/downloads
+example how to compile go file from pro -- protoc --proto_path=api/proto --go-grpc_out=pkg/api api/proto/adder.proto
+example how to compile go file from pro -- protoc --go_out=. --go-grpc_out=. hello.proto
+
+gRPC in a method to communicate between machines like REST, but not as heavy
